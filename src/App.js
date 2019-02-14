@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-
 import styled from "styled-components";
 
-const Styles = styled.div`
+import Navbar from "./components/UI/Navbar/Navbar";
+import CarsList from "./components/Cars/CarsList/CarsList";
+
+const Styles = styled.main`
 
 
 `;
@@ -14,7 +16,8 @@ class App extends Component {
 
     return (
       <Styles>
-      
+        <Navbar />
+        <CarsList />
       </Styles>
     )
   }
